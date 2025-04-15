@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Flipper</title>
+    <style>
+        #green{
+            background-color: green;
+        }
+        #red{
+            background-color: red;
+        }
+        #blue{
+            background-color: blue;
+        }
+        #random{
+            background-color: white;
+            color: black;
+        }
+        #submit{
+            background-color: black;
+        }
+        button{
+            border: 2px solid black;
+            border-radius: 5px;
+            width: 100px;
+            height: 40px;
+            margin: 5px;
+            font-size: 20px;
+            color: white;
+        }
+        form{
+            background-color: white;
+            border: 2px solid black;
+            margin: 5px;
+            width: 100px;
+            height: 150px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        label, input{
+            padding: 2px;
+        }
+    </style>
+</head>
+<script src="script.js"  defer></script>
+<body>
+    <h1>Color Flipper</h1>
+    <button id="red">Red</button>
+    <button id="green">Green</button>
+    <button id="blue">Blue</button>
+    <button id="random">Random</button>
+    <form id ="rgbform">
+        <label >Red</label>
+        <input type="number" id="rform" min="0" max="255" name="Red" value="255">
+        <label >Green</label>
+        <input type="number" id="gform" min="0" max="255" name="Green" value="255">
+        <label >Blue</label>
+        <input type="number" id="bform" min="0" max="255" name="Blue" value="255">
+    </form>
+    <button id="submit">Submit</button>
+</body>
+</html>

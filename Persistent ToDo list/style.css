@@ -1,0 +1,121 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Centering */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+/* Heading Styling */
+h1 {
+    font-size: 2.5rem;
+    color: #4caf50;
+    margin-bottom: 10px;
+}
+
+/* Subtitle */
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+/* Items Display Section */
+#items {
+    width: 100%;
+    max-width: 500px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 30px;
+}
+
+/* Individual Item Container */
+#items div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Item Text */
+p {
+    font-size: 1.2rem;
+    color: #555;
+    flex-grow: 1;
+}
+
+/* Add Item Input */
+input {
+    width: 300px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #4caf50;
+}
+
+/* Add Item Button */
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Delete Button */
+button.delete {
+    background-color: #f44336;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+button.delete:hover {
+    background-color: #e53935;
+}
+
+/* Error Message */
+.alert {
+    color: red;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+/* Flexbox for center alignment */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

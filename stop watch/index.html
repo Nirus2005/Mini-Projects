@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StopWatch</title>
+    <script src="script.js" defer></script>
+    <style>
+        body {
+            font-family: monospace;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(to right, #14ca6692, #00a2ff);  /* Gradient background */
+            color: white;
+            text-align: center;
+        }
+        h1 {
+            
+            font-size: 3rem;
+            margin-bottom: none;
+            font-weight: bold;
+        }
+        button {
+            font-family: monospace;
+            background-color: #187584;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 10px;
+            font-size: 1.2rem;
+            cursor: pointer;
+            margin: 0px 30px;
+        }
+        #time{
+            font-size: 80px;
+        }
+        div{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            
+        }
+        button:hover {
+            background-color: #000000;
+        }
+    </style>
+</head>
+<body>
+    <h1>STOPWATCH</h1>
+    <h3 id = 'time'>00:00</h3>
+    <div>
+        <button onclick="start()" id="strtbtn">Start</button>
+        <button onclick="stop()">Stop</button>
+        <button onclick="reset()">Reset</button>
+    </div>
+    
+</body>
+</html>
