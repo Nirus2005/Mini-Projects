@@ -1,4 +1,4 @@
-# 🧑‍💻 Front-End & Full Stack Mini Projects Portfolio
+# 🧑‍💻 Mini Projects
 
 Welcome to my collection of **HTML, CSS, and JavaScript** mini projects! These projects helped me practice and polish my skills in frontend development. Most of them are small, single-page applications that demonstrate interactive UI components, animations, or basic logic handling — built with **vanilla JS**, no frameworks.
 
